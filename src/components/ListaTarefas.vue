@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <ul v-if="!props.tarefasPendentes " class="list-group mt-4">
+    <ul v-if="props.tarefasPendentes" class="list-group mt-4">
         <li class="list-group-item" v-for="tarefa in props.tarefas">
         <input
             @change="(evento) => (tarefa.finalizada = evento.target.checked)"
