@@ -1,5 +1,5 @@
 <script setup>
-    const props = defineProps(['cadastraTarefa', 'TarefaTemporaria', 'trocarFiltro', 'editaTarefaTemporaria'])
+    const props = defineProps(['cadastraTarefa', 'tarefaTemporaria', 'trocarFiltro', 'editaTarefaTemporaria'])
 </script>
 
 <template>
